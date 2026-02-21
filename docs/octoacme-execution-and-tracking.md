@@ -20,8 +20,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Security scanning in CI (results reviewed by Security Champion)
+- Manual QA for feature acceptance when needed, coordinated by QA Lead
+- QA Lead signs off on quality readiness before release (see [Release Readiness Checklist](octoacme-release-readiness-checklist.md))
 
 ## Reporting & Metrics
 - Track velocity and burndown

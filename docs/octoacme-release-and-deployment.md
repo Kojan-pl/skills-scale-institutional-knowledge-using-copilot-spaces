@@ -8,12 +8,27 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Minor: incremental features and improvements
 - Major: significant functionality or breaking changes
 
+## Roles
+
+The following personas own key release activities. See [Roles & Personas](octoacme-roles-and-personas.md) for full descriptions.
+
+| Role | Responsibility in Release |
+|---|---|
+| Release Manager | Owns end-to-end release coordination and go/no-go decision |
+| DevOps Engineer | Executes pipeline, manages deployment and rollback |
+| Security Champion | Signs off on security scan results before release |
+| QA Lead | Signs off on test coverage and defect status |
+| Product Manager | Confirms feature completeness and approves release notes |
+
+Before proceeding to deployment, complete the [Release Readiness Checklist](octoacme-release-readiness-checklist.md).
+
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- Release Readiness Checklist signed off by all required roles
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
